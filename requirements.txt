@@ -1,0 +1,4 @@
+numpy>=1.24
+h5py>=3.10
+# Install Kuration SDK separately from the provided private release ZIP:
+# python -m pip install -e "<path-to-kuration-sdk-private-release>[array]"

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rare-gameplay-curator"
+version = "1.0.0"
+description = "Curate diverse, event-rich gameplay windows for world-model training with Kuration SDK"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "h5py>=3.10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
